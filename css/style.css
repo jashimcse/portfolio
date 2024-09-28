@@ -1,0 +1,556 @@
+/* logo start */
+.navbar-brand{
+    font-size: 24px;
+    font-weight: bold;
+}
+.navbar-brand:hover{
+    color: #1bb1a1 !important;
+}
+/* logo end */
+/* nav start */
+.nav-link:hover{
+    color: #1bb1a1 !important;
+}
+.home{
+    color: #1bb1a1 !important;
+}
+.nav-link{
+    margin-right: 5px;
+    letter-spacing: 2px;
+    font-size: 16px;
+}  
+.header{
+    padding-top: 6px;
+    background-color:aliceblue;
+}
+/* nav end */
+/* banner start */
+.name{
+    color: #1bb1a1 !important;
+    font-size: 23px;
+}
+.banner h2{
+    font-size: 23px;
+    margin-top: 150px;
+    margin-bottom: 10px;
+}
+.banner h3{
+    font-size: 38px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    margin-bottom: 200px;
+    font-weight: 600;
+    line-height: 52px;
+}
+.baner{
+    max-width: 100%;
+    height: auto;
+    background-image: url(../img/IMG_6048.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+/* banner end */
+/* icon start */
+.icon li{
+   list-style: none;
+   display: inline-block;
+   margin: 0 10px;
+}
+.fab{
+    color: white;
+    font-size: 19px;
+}
+.fab:hover{
+    color: #1bb1a1 !important;
+}
+.icon{
+    padding: 0px ;
+    display: inline-flex;
+    margin: 0px;
+}
+/* icon end */
+/* about me start */
+.img_me img{
+    width:400px;
+    height:auto;
+}
+.about_me{
+    padding-top: 60px;
+}
+.detels h3 {
+    color: #1bb1a1 !important;
+}
+.underline{
+    height: 2px;
+    width: 150px;
+    background-color: #1bb1a1;
+    margin-top: 18px;
+}
+.detels p{
+    font-size: 14px;
+    color: #626262;
+    letter-spacing: 1px;
+    line-height: 29px;
+    margin-bottom: 0px;
+    margin-top: 18px; 
+}
+.clo{
+    background-color: #1bb1a1;
+} 
+.btom{
+    padding-top: 20px;
+    margin-left: 0px;
+}
+/* about me end */
+/* project done start */
+.done{
+  padding-top:60px ;
+  background-color: antiquewhite;
+}
+.project_done li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+.fas {
+    font-size: 19px;
+    margin-top: 14px;
+    color: white;
+    height: 35px;
+    width: 35px;
+    background-color: #1bb1a1;
+    border-radius: 5px;
+    line-height: 35px;
+    text-align: center;
+}
+.side{
+    font-size: 29px;
+    color: #505050;
+    font-weight: 700;
+    display: inline;
+    vertical-align: middle;
+}
+.project_done p{
+    color: #747474;
+    font-size: 19px;
+    margin-top: 8px;
+    padding: 0px;
+}
+.project_done h3{
+      padding-bottom: 50px;
+}
+/* project done end */
+/* servis start */
+.servis h3{
+    font-size: 28px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    color: #1bb1a1;
+    margin-top: 0px;
+    font-weight: 600;
+    line-height: 33px;
+}
+.sarvis{
+    padding-top: 40px;
+}
+.servis p{
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #5D5D5D;
+    padding: 0px;
+    line-height: 27px;
+    margin: 15px 0px;
+    margin-bottom: 49px;
+}
+/* servis end */
+/* servis detels start */
+.servis_detels li{
+       list-style: none;
+}
+.servis_detels h3{
+    margin: 16px 0px;
+    font-size: 17px;
+    letter-spacing: 1px;
+    color: #595959;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.servis_detels p{
+    color: #5D5D5D;
+    font-size: 15px;
+    line-height: 24px;
+    margin-top: 8px;
+}
+.underlines{
+    height: 2px;
+    width: 80px;
+    background-color: #595959;
+}
+/* servis detels end */
+/* lsotop start */
+ul.filters{
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 30px 0;
+}
+
+ul.filters > li{
+    list-style: none;
+    display: inline-block;
+}
+
+ul.filters > li > a{
+    display: block;
+    color: #434e5e;
+    text-decoration: none;
+    padding: 5px 20px;
+}
+
+ul.filters > li > a:hover{
+    background-color: #e6e9ed;
+}
+
+ul.filters > li.active > a{
+    color: #fff;
+    background-color: #28bea8;
+}
+
+.card{
+    position: relative;
+    margin-bottom: 50px;
+    color: #000;
+    border-radius: 0;
+    border: 1px solid #eee;
+    background-color: #fff;
+    box-shadow: 1px 1px 1.5px rgba(0,0,0,0.075);
+}
+
+.card-head{
+    position: relative;
+    overflow: hidden;
+}
+
+.card-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    background-color: rgba(67,78,94,0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color :#fff;
+    -webkit-transition: ease-in-out 0.2s;
+    -moz-transition: ease-in-out 0.2s;
+    -ms-transition: ease-in-out 0.2s;
+    transition: ease-in-out 0.2s;
+}
+
+.card-hover{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(40,190,168,0.9);
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 30px;
+    -webkit-transition: ease-in-out 0.2s;
+    -moz-transition: ease-in-out 0.2s;
+    -ms-transition: ease-in-out 0.2s;
+    transition: ease-in-out 0.2s;
+}
+
+.card-body{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h4.title{
+    color: #434e5e;
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+
+.card-btn{
+    margin-bottom: -40px;
+    font-size: 0.9rem;
+    background-color: #fff;
+    color: #222;
+    border: 1px solid #eee;
+    border-radius: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.card-btn:hover{
+    background-color: #28bea8;
+    color: #fff;
+}
+/* itosop end */
+/* work start */
+.detelsh h3{
+    font-size: 28px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    color: #1bb1a1;
+    margin-top: 0px;
+    font-weight: 600;
+    line-height: 33px;
+    padding-left: 20px;
+}
+.underlinesh{
+    height: 2px;
+    width: 150px;
+    background-color: #1bb1a1; 
+}
+.protfolio{
+    padding-top: 100px;
+}
+/* work end */
+/* clint say start */
+.icons{
+    list-style: none;
+    padding-left: 620px;
+    padding-top: 80px;
+}
+.coustom_slider h3{
+    font-size: 28px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    color: #1bb1a1;
+    margin-top: 0px;
+    font-weight: 600;
+    margin: 0px;
+    text-align: center;
+    padding-top: 50px;
+}
+.carousel-item p{
+    font-size: 14px;
+    color: #E3E3E3;
+    margin-bottom: 0px;
+    line-height: 30px;
+    position: relative;
+    padding-top: 50px;
+}
+.bg_img{
+    background-image: url(../img/client\ edits.png);
+    background-size: cover;
+    background-position: center;
+    background-color: white;
+    margin-top: 0px;
+    position: relative;
+    width: 100%;
+    height: 80vh;
+}
+.Sliders{
+    padding-top: 50px;
+}
+/* client say end */
+/* contact now */
+.contact p{
+    font-size: 16px;
+margin-bottom: 40px;
+color: #7D7D7D;
+line-height: 27px;
+padding-top: 20px;
+}
+.contact_now{
+    padding-top: 80px;
+}
+/* contact end */
+/* frome start */
+.addrs h3{
+    font-size: 25px;
+    position: relative;
+    font-weight: 600;
+    display: inline;
+    vertical-align: middle;
+    margin: 0px 10px;
+}
+.addrs p{
+    font-size: 15px;
+    line-height: 23px;
+    position: relative;
+    margin-top: 4px;
+    padding: 0px 50px;
+    color: white;
+}
+.addres{
+    background-color: #1bb1a1;
+    padding: 25px 17px;
+    margin: 0px;
+    margin-bottom: 9px;
+    overflow: hidden;
+    position: relative;
+    color: white;
+}
+/* frome end */
+/* copy right start */
+.copy_right{
+    margin: 0px;
+    
+    text-align: center;
+    font-size: 2px;
+    color: #5D5D5D;
+}
+/* copy right end */
+/*Responsive start*/
+/* Extra small devices (portrait phones)*/
+@media (max-width: 575.98px) {
+     
+    .banner h2 {
+        font-size: 13px;
+        margin-top: 28px;
+        margin-bottom: 0px;
+    }
+    .name {
+        color: #1bb1a1 !important;
+        font-size: 11px;
+    }
+    .img_me img {
+        width: 384px;
+        height: auto;
+        padding-bottom: 27px;
+    }
+    .servis h3 {
+        font-size: 18px;
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: 2px;
+        color: #1bb1a1;
+        margin-top: 0px;
+        font-weight: 6;
+        line-height: 0px;
+    }
+    
+    }
+
+/*Small devices (landscape phones)*/
+@media (max-width: 767.98px) { 
+    
+    
+    .banner h2 {
+        font-size: 13px;
+        margin-top: 28px;
+        margin-bottom: 0px;
+    }
+    .name {
+        color: #1bb1a1 !important;
+        font-size: 11px;
+    }
+    .img_me img {
+        width: 384px;
+        height: auto;
+        padding-bottom: 27px;
+    }
+    .detels p {
+        font-size: 10px;
+        color: #626262;
+        letter-spacing: 1px;
+        line-height: 18px;
+        margin-bottom: 0px;
+        margin-top: 9px;
+    }
+
+    .servis h3 {
+        font-size: 18px;
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: 2px;
+        color: #1bb1a1;
+        margin-top: 0px;
+        font-weight: 6;
+        line-height: 0px;
+    }
+
+}
+
+/* Medium devices (tablets)*/
+@media (max-width: 991.98px) {
+    
+    
+    .banner h2 {
+        font-size: 13px;
+        margin-top: 28px;
+        margin-bottom: 0px;
+    }
+    .name {
+        color: #1bb1a1 !important;
+        font-size: 11px;
+    }
+    .img_me img {
+        width: 384px;
+        height: auto;
+        padding-bottom: 27px;
+    }
+    .navbar-brand {
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .navbar-toggler {
+        padding: 0.25rem 0.75rem;
+        font-size: 12px;
+        line-height: 1;
+        background-color: transparent;
+        border: 1px solid transparent;
+        border-radius: 0.25rem;
+    }.banner h2 {
+        font-size: 13px;
+        margin-top: 47px;
+        margin-bottom: 1px;
+    }
+    .banner h3 {
+        font-size: 12px;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: 2px;
+        margin-bottom: 77px;
+        font-weight: 600;
+        line-height: 39px;
+    }
+    .fab {
+        color: white;
+        font-size: 7px;
+    }
+    .img_me img {
+        width: 338px;
+        height: auto;
+        padding-bottom: 27px;
+    }
+
+
+
+}
+
+/*Large devices (desktops)*/
+@media (max-width: 1199.98px) { 
+
+    .banner h2 {
+        font-size: 13px;
+        margin-top: 28px;
+        margin-bottom: 0px;
+    }
+    .name {
+        color: #1bb1a1 !important;
+        font-size: 11px;
+    }
+    .img_me img {
+        width: 384px;
+        height: auto;
+        padding-bottom: 27px;
+    }
+    
+ }
+
